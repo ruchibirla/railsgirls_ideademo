@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc2'
 
 # Use sqlite3 as the database for Active Record
-gorup :development do
+group :development do
   gem 'sqlite3'
 end
 
@@ -50,3 +50,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+# for commenting feature
+gem 'foreigner' 
